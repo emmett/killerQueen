@@ -21,7 +21,7 @@ var mainState = {
       this.emitter.makeParticles('pixel');
       this.emitter.setYSpeed(-150, 150);
       this.emitter.setXSpeed(-150, 150);
-      this.emitter.gravity = 0
+      this.emitter.gravity = 0;
       this.berry = game.add.sprite(game.world.centerX - 20, game.world.centerY, 'coin');
       this.berry.anchor.setTo(0.5, 0.5);
 
